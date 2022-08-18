@@ -1,12 +1,12 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { Container, Stack, Typography } from '@mui/material'
 import { styled } from '@mui/material/styles'
-import { Paper, Box } from '@mui/material'
+import { Paper } from '@mui/material'
 import Fab from '@mui/material/Fab';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import Divider from '@mui/material/Divider';
-import {Link, Element, animateScroll} from 'react-scroll';
+import {Element, animateScroll} from 'react-scroll';
 import Planet3D from './planet3D';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -20,15 +20,16 @@ export const HeroContainer = styled(Container)({
 })
 
 export const HeroHeader = styled(Typography)({
+    fontFamily: 'League Spartan',
     textAlign: 'center',
     fontSize: '5vw',
     variant: 'h1',
-    fontWeight: 600,
+    fontWeight: 1000,
     transition: 'color 0.2s ease, font-size 0.5s ease-in-out',
     cursor: 'default',
 
     "@media (max-width:600px)": {
-        fontSize: '10vw',
+        fontSize: '14vw',
     },
 
     "@media (min-width:600px)": {
@@ -52,11 +53,11 @@ export const HeroSubHeader = styled(Typography)({
 })
 
 const HeroSection = () => {
-    const [click, setIsClicked] = useState(false)
+    // const [click, setIsClicked] = useState(false)
 
-    const onClickHandler = () => {
-        setIsClicked(!click)
-    }
+    // const onClickHandler = () => {
+    //     setIsClicked(!click)
+    // }
 
     function scrollDown(){
         animateScroll.scrollTo(500)

@@ -1,10 +1,8 @@
 import {React, useState} from 'react'
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles'
 import { Box, Button } from '@mui/material';
-import Container from '@mui/material/Container';
 import {Link} from 'react-scroll';
 
 export const NavBarWrapper = styled(AppBar)({

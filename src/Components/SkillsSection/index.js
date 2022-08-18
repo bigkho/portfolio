@@ -1,10 +1,5 @@
 import {React, useEffect} from 'react'
-import { 
-    Container, 
-    Typography,
-    Paper 
-
-} from '@mui/material'
+import { Container, Typography, Paper } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import Grid from '@mui/material/Grid';
 import { MeshDistortMaterial, Sphere } from '@react-three/drei';
@@ -30,13 +25,14 @@ export const SkillsWrapper = styled(Container)({
 })
 
 export const SkillsHeader = styled(Typography)({
+    fontFamily: 'League Spartan',
     fontSize: '2rem',
-    fontWeight: 500,
+    fontWeight: 1000,
     maxWidth: 800,
     margin: '0px 1vw',
 
     "@media (max-width:600px)": {
-        fontSize: '5vw',
+        fontSize: '8vw',
     }
 })
 

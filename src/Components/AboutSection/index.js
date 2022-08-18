@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react'
-import { Container, requirePropFactory, Stack, Typography } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import suit from './suit.jpg';
 import typing from './typing.gif';
 import zoro from './zoro.gif';
-import lebron from './lakers-slam-dunk.gif'
 import Grid from '@mui/material/Grid';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -26,7 +24,9 @@ export const AboutWrapper = styled(Container)({
 
 
 export const AboutHeader = styled(Typography)({
+    fontFamily: 'League Spartan',
     fontSize: '5rem',
+    fontWeight: 1000,
     variant: 'h1',
     letterSpacing: '10px',
     transition: 'color 1s ease',
