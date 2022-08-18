@@ -80,7 +80,7 @@ const SkillsSection = () => {
                         elevation={12}
                         square
                 >
-                    <Container disableGutters maxWidth='false' sx={{display:'flex',justifyContent:{'xs':'space-between','sm':'flex-start',alignItems:'center'}}}>
+                    <Container disableGutters maxWidth='false' sx={{display:'flex',justifyContent:{'xs':'space-between','sm':'flex-start'},alignItems:'center'}}>
                         <SkillsHeader data-aos="fade-up">Programming Languages</SkillsHeader>
                         <AvatarGroup sx={{bgcolor:"#000"}} total={3} data-aos="fade-up">
                             <Avatar alt="Python" src={python} sx={{bgcolor:"#fff"}}/>
