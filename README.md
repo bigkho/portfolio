@@ -1,6 +1,6 @@
 # My Portfolio
 
-You can view this website on mihad.net
+Visit my portfolio [here](https://mihad.net/).
 
 ## Libraries used:
 
