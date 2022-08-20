@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit my portfolio [here](https://mihad.net/).
 
-## Available Scripts
+## Libraries used:
 
-In the project directory, you can run:
+I used MaterialUI as a template for most of the UI design. I used styled MaterialUI components and customized them accordingly. 
+```
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "styled-components": "^5.3.5",
+```
+    
+To render the open source low poly Earth model on the home page, I used three.js and other libraries that assisted with three.js. With these libraries I was able to allow the user to control the orbit of the 3D model and spin it around, and by default it would rotate on it's y-axis. I downloaded the model as a gltf file which I then used a tool to convert it to a useable JSX file.
 
-### `npm start`
+```
+    "@react-three/drei": "^9.22.7",
+    "@react-three/fiber": "^8.3.1",
+    "three": "^0.143.0",
+    "gltf-pipeline": "^3.0.5",
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To create the dynamic smooth scrolling on the page with navigation bar and the action buttons, I used the react-scroll library.
+```
+    "react-scroll": "^1.8.7",
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For the fade-in animations as you scroll down, I used the 'aos' library which stands for 'appear on scroll'. This made it much easier to implement the fade in transitions for every individual object on the page. 
+```
+    "aos": "^2.3.4"
+```
+    
+Tools I used:
+- Figma
+    - I created the template for the general design on Figma, and used it to make most of my decisions on implementations.
+- CSSGradient
+    - I got premade css background gradients from here so that I could easily decide which would suit my website best.
+- Sketchfab
+    - I was able to get the Earth model I used from here. The licensing and credits are given at the footer of the page.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks to this portfolio project, I was able to vastly improve my front-end UI design and features. Following this portfolio, I know that I will be comfortable designing many websites of different nature. I hope to improve my UI design as well as the front-end interaction.
