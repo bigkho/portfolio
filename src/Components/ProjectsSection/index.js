@@ -108,7 +108,7 @@ const ProjectsSection = () => {
                     sx={{height:'100%',display:{xs:'flex'},justifyContent:'space-evenly',
                             flexDirection:{xs:'column',sm:'row'}
                     }}>
-                    <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between'}}>
+                    <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between',padding:'16px !important'}}>
                         <CardInfoBig>ArtistBlock</CardInfoBig>
                         <CardInfo>I developed the ArtistBlock Android app with a group of 4 members at Codepath.
                         We allowed users to draw images and post them on the platform for all users to see. 
@@ -125,11 +125,11 @@ const ProjectsSection = () => {
                           sx={{
                             display:'flex',
                             justifyContent:'space-between',
-                            alignItems:'center'}}>
+                            alignItems:'flex-end'}}>
                           <CardInfo>
                             View on Github
                           </CardInfo>
-                          <IconButton component="a" href="https://github.com/AllNighters02/ArtistBlock" aria-label="delete" size="large" color="secondary">
+                          <IconButton component="a" href="https://github.com/AllNighters02/ArtistBlock" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
                             <GitHubIcon fontSize="inherit" />
                           </IconButton>
                         </Container>
@@ -160,7 +160,7 @@ const ProjectsSection = () => {
                   data-aos="fade-up"
                   >
                   
-                  <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between'}}>
+                  <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between',padding:'16px !important'}}>
                       <CardInfoBig>ArtistBlock</CardInfoBig>
                       <CardInfo>I developed the ArtistBlock Android app with a group of 4 members at Codepath.
                       We allowed users to draw images and post them on the platform for all users to see.
@@ -171,11 +171,11 @@ const ProjectsSection = () => {
                         sx={{
                           display:'flex',
                           justifyContent:'space-between',
-                          alignItems:'center'}}>
+                          alignItems:'flex-end'}}>
                         <CardInfo>
                           View on Github
                         </CardInfo>
-                        <IconButton component="a" href="https://github.com/AllNighters02/ArtistBlock" aria-label="delete" size="large" color="secondary">
+                        <IconButton component="a" href="https://github.com/AllNighters02/ArtistBlock" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
                           <GitHubIcon fontSize="inherit" />
                         </IconButton>
                       </Container>
@@ -194,21 +194,23 @@ const ProjectsSection = () => {
                   data-aos="fade-up"
                   >
                   
-                  <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between'}}>
-                      <CardInfoBig>UNO in Terminal</CardInfoBig>
-                      <CardInfo>Replicated popular card game UNO in Linux terminal using Java.
+                  <CardContent 
+                  sx={{height:'100%',display:'flex',flexDirection: 'column',
+                  justifyContent:'space-between',padding:'16px !important',
+                  }}>
+                      <CardInfoBig>UNO in Command Line Interface</CardInfoBig>
+                      <CardInfo>Replicated popular card game UNO in Linux CLI using Java.
                       Implemented full range of game functionality and edge cases, as well as alternative game versions.
-                      
                       </CardInfo>
                       <Container disableGutters maxWidth='false' 
                         sx={{
                           display:'flex',
                           justifyContent:'space-between',
-                          alignItems:'center'}}>
+                          alignItems:'flex-end'}}>
                         <CardInfo>
                           View on Github
                         </CardInfo>
-                        <IconButton component="a" href="https://github.com/lilkho/MKS21X-FinalProject" aria-label="delete" size="large" color="secondary">
+                        <IconButton component="a" href="https://github.com/lilkho/MKS21X-FinalProject" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
                           <GitHubIcon fontSize="inherit" />
                         </IconButton>
                       </Container>
@@ -231,19 +233,19 @@ const ProjectsSection = () => {
                       flexDirection:{xs:'column',sm:'row'}
               }}>
                     <CardContent sx={{height:'100%',display:'flex',flexDirection: 'column',justifyContent:'space-between'}}>
-                        <CardInfoBig>IN DEVELOPMENT: MTA Bus Time Web App</CardInfoBig>
-                        <CardInfo>Currently working with 2 other members on a MERN stack project which will use the MTA Bustime API.
+                        <CardInfoBig sx={{paddingBottom:{xs:'1vh',sm:'0px'}}}>IN DEVELOPMENT: MTA Bus Time Web App</CardInfoBig>
+                        <CardInfo sx={{paddingBottom:{xs:'1vh',sm:'0px'}}}>Currently working with 2 other members on a MERN stack project which will use the MTA Bustime API.
                         We plan for users to be able to see all info possible on the stations nearby them.
                         </CardInfo>
                         <Container disableGutters maxWidth='false' 
                           sx={{
                             display:'flex',
                             justifyContent:'space-between',
-                            alignItems:'center'}}>
+                            alignItems:'flex-end'}}>
                           <CardInfo>
                             View on Github
                           </CardInfo>
-                          <IconButton component="a" href="/" aria-label="delete" size="large" color="secondary">
+                          <IconButton component="a" href="/" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
                             <GitHubIcon fontSize="inherit" />
                           </IconButton>
                         </Container>

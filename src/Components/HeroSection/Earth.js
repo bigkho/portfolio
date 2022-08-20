@@ -6,7 +6,7 @@ source: https://sketchfab.com/3d-models/low-poly-earth-c99483d5e2a94ca8b4f357914
 title: Low Poly Earth
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {

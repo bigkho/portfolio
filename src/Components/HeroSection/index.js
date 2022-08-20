@@ -41,6 +41,7 @@ export const HeroHeader = styled(Typography)({
 })
 
 export const HeroSubHeader = styled(Typography)({
+    fontFamily: 'League Spartan',
     textAlign: 'center',
     fontSize: '2rem',
     variant: 'h1',

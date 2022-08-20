@@ -8,7 +8,6 @@ import {
     Avatar
 } from '@mui/material'
 import { styled } from '@mui/material/styles'
-import Grid from '@mui/material/Grid';
 import IconButton from '@mui/material/IconButton';
 import GoogleIcon from '@mui/icons-material/Google';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
