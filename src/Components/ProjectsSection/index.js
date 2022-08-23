@@ -7,7 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import artblock from './ArtistBlock.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import mtabus from './mtabus.PNG';
+import mtabus from './busproj.png';
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -245,7 +245,7 @@ const ProjectsSection = () => {
                           <CardInfo>
                             View on Github
                           </CardInfo>
-                          <IconButton component="a" href="/" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
+                          <IconButton component="a" href="https://github.com/bigkho/bus-app" aria-label="delete" size="large" color="secondary" sx={{p:0}}>
                             <GitHubIcon fontSize="inherit" />
                           </IconButton>
                         </Container>

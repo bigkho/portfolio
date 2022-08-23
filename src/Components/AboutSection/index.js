@@ -77,6 +77,10 @@ const AboutSection = () => {
                                 maxWidth: {xs:'70vw',sm:'20vw'},
                                 height: 'fit-content',
                                 marginBottom: {xs:'5vh',sm:'0px'},
+                                transition: 'transform 1000ms ease',
+                                '&:hover':{
+                                    transform: 'scale(1.05)',
+                                }
                                 }}
                             elevation={12}
                             >
@@ -100,6 +104,10 @@ const AboutSection = () => {
                                 maxWidth: {xs:'70vw',sm:'20vw'},
                                 height: 'fit-content',
                                 marginBottom: {xs:'5vh',sm:'0px'},
+                                transition: 'all 1000ms ease',
+                                '&:hover':{
+                                    transform: 'scale(1.05)',
+                                },
                                 }}
                             elevation={12}    
                             >
@@ -107,7 +115,8 @@ const AboutSection = () => {
                                 component="img"
                                 alt="Failed Connection"
                                 image={typing}
-                                sx={{maxHeight:'45vh'}}
+                                sx={{maxHeight:'45vh',
+                                }}
                             />
                             <CardContent>
                                 <CardInfo>I have been in the world of programming since at a young age.
@@ -126,6 +135,10 @@ const AboutSection = () => {
                                 maxWidth: {xs:'70vw',sm:'20vw'},
                                 height: 'fit-content',
                                 marginBottom: {xs:'5vh',sm:'0px'},
+                                transition: 'transform 1000ms ease',
+                                '&:hover':{
+                                    transform: 'scale(1.05)',
+                                }
                                 }}
                             elevation={12}
                             >

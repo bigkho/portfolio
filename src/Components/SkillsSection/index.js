@@ -53,10 +53,18 @@ export const SkillItem = styled(Paper)({
     color: '#000',
     fontSize: '1rem',
     fontWeight: 800,
+    transition: 'transform 500ms ease',
+    borderRadius: '45px',
+
+    '&:hover':{
+        transform: 'scale(1.1)',
+        backgroundImage: 'linear-gradient( 109.6deg, rgba(237,246,250,1) 11.2%,  rgba(204,228,247,1) 100.2% )',
+    },
 
     '@media (max-width: 600px)': {
         padding: '2vh 5vw',
     },
+    
 })
 
 const SkillsSection = () => {

@@ -25,19 +25,29 @@ export const HeroHeader = styled(Typography)({
     fontSize: '5vw',
     variant: 'h1',
     fontWeight: 1000,
-    transition: 'color 0.2s ease, font-size 0.5s ease-in-out',
     cursor: 'default',
 
     "@media (max-width:600px)": {
         fontSize: '14vw',
     },
 
-    "@media (min-width:600px)": {
-        "&:hover": {
-            color: "#aaa",
-        }
-    }
+    // "@media (min-width:1px)": {
+    //     "&:hover": {
+    //         "&::after": {
+    //             transform: 'scaleX(1.0)',
+    //         }
+    //     }
+    // },
 
+    // "&::after": {
+    //     content: '""',
+    //     height: '0.25vh',
+    //     width: '100%',
+    //     background: '#0f0',
+    //     display: 'flex',
+    //     transform: 'scaleX(0)',
+    //     transition: 'all 500ms ease'
+    // }
 })
 
 export const HeroSubHeader = styled(Typography)({
