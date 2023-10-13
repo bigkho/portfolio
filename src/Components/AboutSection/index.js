@@ -91,8 +91,8 @@ const AboutSection = () => {
                                 sx={{maxHeight:'45vh'}}
                             />
                             <CardContent>
-                                <CardInfo>Hey! My name is Mihad Khondker and I am currently a senior at Hunter College. 
-                                I will be graduating next spring with a Bachelors in Computer Science.</CardInfo>
+                                <CardInfo>Hey! My name is Mihad Khondker and I recently graduated Hunter College 
+                                with a degree in Computer Science and minor in Mathematics.</CardInfo>
                             </CardContent>
                         </Card>
                     </Grid>
